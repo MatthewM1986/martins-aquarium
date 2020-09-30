@@ -1,17 +1,20 @@
 .aquarium {
-    
+   
 }
 
 .aquarium__fish {
-    color: orangered
+    margin: 0.5em; border: black 2px solid;
+}
+.aquarium__fish--each {
+    display: flex; flex-wrap: wrap; justify-content: space-evenly;
 }
 
 .location {
-
+    margin: 0.5em; border: black 2px solid;
 }
 
 .location__quotes {
-
+    justify-content: center;s
 }
 
 .location__guide {
@@ -19,7 +22,7 @@
 }
 
 .aquarium__care {
-    flex: flex-end;
+    margin: 0.5em; background-color: black; justify-content: center;
 }
 
 body {
