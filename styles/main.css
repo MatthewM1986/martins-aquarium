@@ -1,0 +1,27 @@
+.aquarium {
+    
+}
+
+.aquarium__fish {
+    color: orangered
+}
+
+.location {
+
+}
+
+.location__quotes {
+
+}
+
+.location__guide {
+
+}
+
+.aquarium__care {
+    flex: flex-end;
+}
+
+body {
+
+}
