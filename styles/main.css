@@ -1,30 +1,38 @@
 .aquarium {
-   
+
 }
 
-.aquarium__fish {
-    margin: 0.5em; border: black 2px solid;
+.aquarium__container--main {
+    display: flex; 
+}
+
+.aquarium__fish--container {
+    margin: 0.5em; border: black 2px solid; padding: 0.5em;
 }
 .aquarium__fish--each {
-    display: flex; flex-wrap: wrap; justify-content: space-evenly;
+    display: flex; flex-wrap: wrap; font-size: 8pt; justify-content: space-evenly; text-align: center;
 }
 
 .location {
-    margin: 0.5em; border: black 2px solid;
+    text-align: center; margin: 0.5em; border: black 2px solid; padding: 0.5em;
 }
 
 .location__quotes {
-    justify-content: center;s
+    text-align: center;
 }
 
 .location__guide {
-
+    text-align: center;
 }
 
-.aquarium__care {
-    margin: 0.5em; background-color: black;  display: flex; align-content: flex-end;
+.aquarium__care--container {
+    text-align: center; margin: 0.5em; background-color: black; width: 500px; padding: 0.5em;
 }
 
 body {
 
+}
+
+p {
+    margin-top: -10px;
 }
