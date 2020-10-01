@@ -1,3 +1,5 @@
+@import "fish.css";
+
 .aquarium {
 
 }
@@ -6,12 +8,7 @@
     display: flex; 
 }
 
-.aquarium__fish--container {
-    margin: 0.5em; border: black 2px solid; padding: 0.5em;
-}
-.aquarium__fish--each {
-    display: flex; flex-wrap: wrap; font-size: 8pt; justify-content: space-evenly; text-align: center;
-}
+
 
 .location {
     text-align: center; margin: 0.5em; border: black 2px solid; padding: 0.5em;
