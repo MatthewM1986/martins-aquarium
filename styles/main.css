@@ -22,7 +22,7 @@
 }
 
 .aquarium__care {
-    margin: 0.5em; background-color: black; justify-content: center;
+    margin: 0.5em; background-color: black;  display: flex; align-content: flex-end;
 }
 
 body {
