@@ -2,8 +2,13 @@
 .aquarium__fish--container {
     margin: 0.5em; border: black 2px solid; padding: 0.5em;
 }
-.aquarium__fish--each {
+
+.aquarium__fish--list {
     display: flex; flex-wrap: wrap; font-size: 10pt; justify-content: space-evenly; text-align: center;
+}
+
+.aquarium__fish--each {
+   
 }
 
 img {
