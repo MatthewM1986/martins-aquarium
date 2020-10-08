@@ -12,12 +12,12 @@ export const FishList = () => {
 
     let fishHTMLData = ""
     for (const fish of fishes) {
-        fishHTLData += Fish(fish)
+        fishHTMLData += Fish(fish)
     }
 
     contentElement.innerHTML += `
-        <div class="aquarium__fish--each">
+        <article class="fishList">
             ${fishHTMLData}
-        </div>
+        </article>
         `
 }
