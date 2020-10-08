@@ -6,7 +6,7 @@ import { useFish } from './fishDataProvider.js'
 export const FishList = () => {
 
    
-    const contentElement = document.querySelector(".aquarium__fish--each")
+    const contentElement = document.querySelector(".aquarium__fish--container")
 
     const fishes = useFish()
 
@@ -16,8 +16,8 @@ export const FishList = () => {
     }
 
     contentElement.innerHTML += `
-        <article class="fishList">
+        <div class="aquarium__fish--list">
             ${fishHTMLData}
-        </article>
+        </div>
         `
 }

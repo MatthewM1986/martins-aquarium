@@ -1,12 +1,14 @@
 
 
-export const Fish = (fishEach) => {
+export const Fish = (fish) => {
     return `
-            <h3 style="font-size: 20px;">${fishEach.name}</h3>
-            <p><img src="${fishEach.image}"></p>
-            <p>Species: ${fishEach.species}</p>
-            <p>Size: ${fishEach.size}</p>
-            <p>Diet: ${fishEach.diet}</p>
-            <p>Harvested Location: ${fishEach.harvested}</p>
+    <div class="aquarium__fish--each">
+            <h3 style="font-size: 20px;">${fish.name}</h3>
+            <p><img src="${fish.image}"></p>
+            <p>Species: ${fish.species}</p>
+            <p>Size: ${fish.size}</p>
+            <p>Diet: ${fish.diet}</p>
+            <p>Harvested Location: ${fish.harvested}</p>
+    </div>
     `
 }
