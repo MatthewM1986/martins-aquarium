@@ -1,6 +1,6 @@
 
 
-export const Fish = (fishEach) => {
+export const Fish = (fish) => {
     return `
         <div class="aquarium__fish--each">
             <h3 style="font-size: 20px;">${fishEach.name}</h3>
