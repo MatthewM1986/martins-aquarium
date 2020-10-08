@@ -5,15 +5,12 @@
 }
 
 .aquarium__fish--list {
-    display: flex; flex-wrap: wrap; font-size: 10pt; justify-content: space-evenly; text-align: center;  
+    display: flex; flex-wrap: wrap; font-size: 10pt; justify-content: space-evenly; text-align: center;
 }
 
-/*Flexbox for the fish section*/
 .aquarium__fish--each {
-    
-}
+}   
 
-/*Image for each fish*/
 img {
     width:150px; border: 2px solid black; border-radius:50%
 }
