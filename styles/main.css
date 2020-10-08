@@ -1,15 +1,15 @@
 @import "fish.css";
 
 .aquarium {
-
+    
 }
 
+/*This makes the aside go to the right of the page*/
 .aquarium__container--main {
-    display: flex; 
+    display: flex;
 }
 
-
-
+/*The box around the location section*/
 .location {
     text-align: center; margin: 0.5em; border: black 2px solid; padding: 0.5em;
 }
@@ -22,8 +22,9 @@
     text-align: center;
 }
 
+/*This creates the black box, etc. for the aside*/
 .aquarium__care--container {
-    text-align: center; margin: 0.5em; background-color: black; width: 500px; padding: 0.5em;
+    text-align: center; margin: 0.5em; background-color: black; width: 250px; padding: 0.5em;
 }
 
 body {

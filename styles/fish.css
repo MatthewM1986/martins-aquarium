@@ -1,11 +1,19 @@
 
+/*The box around the fish section*/
 .aquarium__fish--container {
     margin: 0.5em; border: black 2px solid; padding: 0.5em;
 }
-.aquarium__fish--each {
-    display: flex; flex-wrap: wrap; font-size: 10pt; justify-content: space-evenly; text-align: center;
+
+.aquarium__fish--list {
+    display: flex; flex-wrap: wrap; font-size: 10pt; justify-content: space-evenly; text-align: center;  
 }
 
+/*Flexbox for the fish section*/
+.aquarium__fish--each {
+    
+}
+
+/*Image for each fish*/
 img {
-    height:100px; border: 2px solid black; border-radius:50%
+    width:150px; border: 2px solid black; border-radius:50%
 }
