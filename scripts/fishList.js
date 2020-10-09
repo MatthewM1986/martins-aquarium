@@ -1,14 +1,14 @@
 
 
 import { Fish } from './fish.js'
-import { useFish } from './fishDataProvider.js'
+import { useFish, mostHolyFish, soldierFish, nonHolyFish } from './fishDataProvider.js'
 
 export const FishList = () => {
 
    
     const contentElement = document.querySelector(".aquarium__fish--container")
 
-    const fishes = useFish()
+    const fishes = mostHolyFish()
 
     let fishHTMLData = ""
     for (const fish of fishes) {

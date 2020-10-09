@@ -4,13 +4,16 @@
     margin: 0.5em; border: black 2px solid; padding: 0.5em;
 }
 
+/*The flex for the fish section*/
 .aquarium__fish--list {
     display: flex; flex-wrap: wrap; font-size: 10pt; justify-content: space-evenly; text-align: center;
 }
 
+/*Not using since importing js*/
 .aquarium__fish--each {
 }   
 
+/*the images of the fish*/
 img {
     width:150px; border: 2px solid black; border-radius:50%
 }
